@@ -4,407 +4,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0D1117">
-    <title>Manan Joshi | Python, C++ & Web Developer</title>
-    <meta name="description" content="Portfolio of Manan Joshi, an Indian developer who builds tools and games in Python, C++, and JavaScript on the web. Explore projects, skills, and source code.">
-    <meta property="og:site_name" content="Manan Joshi Portfolio">
-    <meta property="og:url" content="https://manan.is-a.dev/">
+    <title>Manan Joshi | Developer Portfolio</title>
+    <meta name="description"
+        content="Hand-built portfolio of Manan Joshi — 1st year B.Tech CSE at The NorthCap University. Python, C++ and C developer living in the terminal, with a taste for cybersecurity.">
+    <meta name="author" content="Manan Joshi">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="tQXLFUhHLoD3-BiDWoEAZrjiJuhq7GMiHHihAaQNMvo" />
+    <meta name="theme-color" content="#0f172a">
     <link rel="canonical" href="https://manan.is-a.dev/">
-    <meta property="og:title" content="Manan Joshi | Python, C++ & Web Developer">
-    <meta property="og:description" content="Portfolio of Manan Joshi, an Indian developer building projects in Python, C++, and JavaScript on the web.">
-    <meta property="og:image" content="https://manan.is-a.dev/preview.png?v=3">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Manan Joshi, Python, C++ and web developer from India">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <link class="favicon" rel="icon" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <meta name="google-site-verification" content="tQXLFUhHLoD3-BiDWoEAZrjiJuhq7GMiHHihAaQNMvo" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Manan Joshi | Developer Portfolio">
+    <meta property="og:description"
+        content="Hand-built portfolio of Manan Joshi — 1st year B.Tech CSE at The NorthCap University. Python, C++ and C developer living in the terminal, with a taste for cybersecurity.">
+    <meta property="og:url" content="https://manan.is-a.dev/">
+    <meta property="og:image" content="https://manan.is-a.dev/img/avatar.jpg">
+    <meta property="og:site_name" content="Manan Joshi">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Manan Joshi | Developer Portfolio">
+    <meta name="twitter:description"
+        content="Hand-built portfolio of Manan Joshi — 1st year B.Tech CSE at The NorthCap University. Python, C++ and C developer living in the terminal, with a taste for cybersecurity.">
+    <meta name="twitter:image" content="https://manan.is-a.dev/img/avatar.jpg">
+
+    <!-- Structured data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Manan Joshi",
         "url": "https://manan.is-a.dev/",
-        "image": "https://manan.is-a.dev/img/avatar.png",
-        "jobTitle": "Developer",
-        "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "IN"
-        },
-        "nationality": "Indian",
-        "knowsAbout": ["Python", "C++", "JavaScript", "Web Development"],
-        "sameAs": ["https://github.com/ManannJoshi"]
+        "jobTitle": "Student",
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "The NorthCap University" },
+        "sameAs": ["https://github.com/manannjoshi"]
     }
     </script>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#journey">Journey</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <h1>Hi, I am <span class="highlight">Manan Joshi</span></h1>
+            <p>I'm a <span class="highlight">developer</span> from India, building tools for automation and games with
+                JS, Python and C++.</p>
+            <p>1<sup>st</sup> Year <span class="highlight">B.Tech CSE</span> Student - 2026</p>
+            <a href="#projects" class="hero-links">View Projects</a> <a href="https://github.com/manannjoshi"
+                class="hero-links" target="_blank" rel="noopener noreferrer">Github</a>
+            <x-zsh os="kubuntu" user="manan" host="portfolio" dir="~" title="manan@portfolio" speed="28"
+                gap="700" rows="10">
+cmd: whoami
+manan joshi - developer from India
+cmd: apt search skills
+python  c++  c  html  css  js
+cmd: projects
+trex game, shopping list manager
+cmd: uptime
+1st year B.Tech CSE, building things</x-zsh>
+        </section>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
-                <a href="#journey">Journey</a>
-                <a href="#about">About</a>
-                <a href="#contact" class="nav-btn">Contact</a>
-            </div>
-        </div>
-    </nav>
-
-    <main class="container">
-
-        <header class="hero">
-            <img src="img/avatar.png" alt="Manan Joshi" class="hero-avatar">
-            <p class="hero-tag">Developer</p>
-            <h1>Hi, I'm <span>Manan Joshi.</span></h1>
-            <p class="hero-text">
-                I'm a developer from India, mostly building small tools and games with Python and
-                C++, and this site is me learning the web as I go.
-            </p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn">See My Work</a>
-                <a href="#contact" class="btn secondary">Get In Touch</a>
-            </div>
-        </header>
-
-        <section class="featured" id="projects">
-            <div class="section-heading reveal">
-                <p class="section-tag">Featured Work</p>
-                <h2>My Projects.</h2>
-                <p>
-                    What I've actually finished and put out there. Every project is live or has
-                    its source up on GitHub.
-                </p>
-            </div>
-
-            <div class="project-grid">
-
-                <div class="project reveal">
-                    <div class="project-icon tile-js">
-                        <img src="img/javascript.svg" alt="JavaScript icon">
-                    </div>
-                    <h3>T-Rex Runner</h3>
-                    <p>My own version of the Chrome dinosaur game built with p5.js. Jump obstacles and survive as long as you can.</p>
-                    <div class="project-meta">
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">p5.js</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link" data-game="trex/index.html">Play Game</a>
-                        <a href="https://github.com/ManannJoshi/trex" target="_blank" rel="noopener" class="project-link secondary-link">Source</a>
+        <section class="hero" id="projects">
+            <h2 class="dev-text">Personal Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <!-- <img src="/img/trex-preview.png" alt="trex-preview"> -->
+                    <h3>Trex Game</h3>
+                    <p>The iconic Trex Google game I recreated in JS using the p5.js library</p>
+                    <div class="card-links">
+                        <a href="https://manan.is-a.dev/trex" class="links" target="_blank"
+                            rel="noopener noreferrer">Play</a>
+                        <a href="https://github.com/manannjoshi/trex" class="links" target="_blank"
+                            rel="noopener noreferrer">Source Code</a>
                     </div>
                 </div>
-
-                <div class="project reveal">
-                    <div class="project-icon tile-cpp">
-                        <img src="img/cplusplus.svg" alt="C++ icon">
-                    </div>
-                    <h3>Minecraft Tools</h3>
-                    <p>A C++ CLI tool with a block calculator and railway calculator, built for Minecraft builders, with cross-platform releases.</p>
-                    <div class="project-meta">
-                        <span class="tag">C++</span>
-                        <span class="tag">CMake</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/manannjoshi/minecraft-tools" target="_blank" rel="noopener" class="project-link">View Source</a>
-                        <a href="https://github.com/manannjoshi/minecraft-tools/releases" target="_blank" rel="noopener" class="project-link secondary-link">Releases</a>
+                <div class="card">
+                    <!-- <img src="/img/slm-preview.png" alt="slm-preview"> -->
+                    <h3>Shopping List Manager</h3>
+                    <p>A shopping list manager made in <code>C++</code> using the <code>sstream</code> and
+                        <code>fstream</code> libraries</p>
+                    <div class="card-links">
+                        <a href="https://github.com/manannjoshi/shoppingListManager/releases/tag/v1.0.0" class="links"
+                            target="_blank" rel="noopener noreferrer">Releases</a>
+                        <a href="https://github.com/manannjoshi/shoppingListManager" class="links" target="_blank"
+                            rel="noopener noreferrer">Source Code</a>
                     </div>
                 </div>
-
-                <div class="project reveal">
-                    <div class="project-icon tile-python">
-                        <img src="img/python.svg" alt="Python icon">
-                    </div>
+                <div class="card">
+                    <!-- <img src="/img/pg-preview.png" alt="pg-preview"> -->
                     <h3>Password Generator</h3>
-                    <p>Generate strong, secure passwords with Python's secrets library. Pick length and choose which character sets to include.</p>
-                    <div class="project-meta">
-                        <span class="tag">Python</span>
-                        <span class="tag">secrets</span>
+                    <p>Password generator made in <code>Python</code> using Python's <code>secrets</code> library.</p>
+                    <div class="card-links">
+                        <a href="https://github.com/manannjoshi/Password-Generator/releases/tag/v2.0.0" class="links"
+                            target="_blank" rel="noopener noreferrer">Releases</a>
+                        <a href="https://github.com/manannjoshi/Password-Generator" class="links" target="_blank"
+                            rel="noopener noreferrer">Source Code</a>
                     </div>
-                    <div class="project-links">
-                        <a href="https://github.com/manannjoshi/Password-Generator" target="_blank" rel="noopener" class="project-link">View Source</a>
-                        <a href="https://github.com/manannjoshi/Password-Generator/releases" target="_blank" rel="noopener" class="project-link secondary-link">Releases</a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="skills" id="skills">
-            <div class="section-heading reveal">
-                <p class="section-tag">Toolbox</p>
-                <h2>My Skills.</h2>
-                <p>Things I've picked up from real projects, not just tutorials.</p>
-            </div>
-
-            <div class="skills-grid">
-                <div class="skill-card reveal">
-                    <div class="skill-icon tile-python">
-                        <img src="img/python.svg" alt="Python">
-                    </div>
-                    <h3>Python</h3>
-                    <p>Made the Password Generator and Calculator with it. Comfortable with file handling and CLI tools.</p>
-                </div>
-                <div class="skill-card reveal">
-                    <div class="skill-icon tile-cpp">
-                        <img src="img/cplusplus.svg" alt="C++">
-                    </div>
-                    <h3>C++</h3>
-                    <p>The one I'm trying to actually master. Minecraft Tools is the biggest thing I've built so far.</p>
-                </div>
-                <div class="skill-card reveal">
-                    <div class="skill-icon tile-html">
-                        <img src="img/html5.svg" alt="HTML">
-                    </div>
-                    <h3>HTML</h3>
-                    <p>Enough to build this entire site by hand.</p>
-                </div>
-                <div class="skill-card reveal">
-                    <div class="skill-icon tile-css">
-                        <img src="img/css.svg" alt="CSS">
-                    </div>
-                    <h3>CSS</h3>
-                    <p>Making this site look right on every screen, from a phone to a desktop.</p>
-                </div>
-                <div class="skill-card reveal">
-                    <div class="skill-icon tile-js">
-                        <img src="img/javascript.svg" alt="JavaScript">
-                    </div>
-                    <h3>JavaScript</h3>
-                    <p>Going back to the basics, and rebuilt the T-Rex game to really learn it.</p>
-                </div>
-                <div class="skill-card skill-card-accent reveal">
-                    <h3>Currently Learning</h3>
-                    <p>Mastering C++, picking up C#, and getting into game development.</p>
                 </div>
             </div>
         </section>
-
-        <section class="journey" id="journey">
-            <div class="section-heading reveal">
-                <p class="section-tag">Milestones</p>
-                <h2>My Journey.</h2>
-                <p>Where I've been and where I'm headed, from a browser game at 11 to college and game dev.</p>
-            </div>
-
-            <div class="journey-grid">
-
-                <div class="milestone reveal">
-                    <div class="milestone-head">
-                        <span class="milestone-num">01</span>
-                        <p class="milestone-year">2021</p>
+        <section class="hero" id="skills">
+            <h2 class="dev-text">Skills</h2>
+            <h3>Skills I self-taught</h3>
+            <div class="skills">
+                <h2>Software Development</h2>
+                <div class="skill">
+                    <div>
+                        <img
+                            src="img/python-original.svg" alt="" />
+                        <h3>Python, strong, using it since 10th</h3>
                     </div>
-                    <h3>First Game</h3>
-                    <p>Built T-Rex Runner in WhiteHat Jr at age 11. My first real code: jump, score, crash, repeat.</p>
-                </div>
-
-                <div class="milestone reveal">
-                    <div class="milestone-head">
-                        <span class="milestone-num">02</span>
-                        <p class="milestone-year">2021-22</p>
+                    <div>
+                        <img src="img/c-original.svg" alt="" />
+                        <h3>C, just started in college</h3>
                     </div>
-                    <h3>Dipping into the Web</h3>
-                    <p>Stitched together small HTML and CSS websites, nothing pretty, but it showed me how the web fits together.</p>
-                </div>
-
-                <div class="milestone reveal">
-                    <div class="milestone-head">
-                        <span class="milestone-num">03</span>
-                        <p class="milestone-year">2026</p>
+                    <div>
+                        <img src="img/cplusplus-original.svg" alt="" />
+                        <h3>C++, solid basics</h3>
                     </div>
-                    <h3>Python & Shipping</h3>
-                    <p>Password Generator and Calculator with real GitHub Actions releases, my first taste of shipping proper tools.</p>
                 </div>
-
-                <div class="milestone reveal">
-                    <div class="milestone-head">
-                        <span class="milestone-num">04</span>
-                        <p class="milestone-year">2026</p>
+                <h2>Web Development</h2>
+                <div class="skill">
+                    <div>
+                        <img
+                            src="img/html5-original-wordmark.svg" alt="" />
+                        <h3>HTML, very good</h3>
                     </div>
-                    <h3>C++ Deep-Dive</h3>
-                    <p>Minecraft Tools CLI plus a full fundamentals course, dozens of small programs to build a real base.</p>
-                </div>
-
-                <div class="milestone reveal">
-                    <div class="milestone-head">
-                        <span class="milestone-num">05</span>
-                        <p class="milestone-year">2026</p>
+                    <div>
+                        <img
+                            src="img/css3-original-wordmark.svg" alt="" />
+                        <h3>CSS, enough for this website</h3>
                     </div>
-                    <h3>This Portfolio</h3>
-                    <p>Designed and built this very site, the first thing on the web I'm genuinely proud of.</p>
-                </div>
-
-                <div class="milestone reveal">
-                    <div class="milestone-head">
-                        <span class="milestone-num">06</span>
-                        <p class="milestone-year">2026</p>
+                    <div>
+                        <img
+                            src="img/javascript-original.svg" alt="" />
+                        <h3>JavaScript, a bit rusty</h3>
                     </div>
-                    <h3>College</h3>
-                    <p>Started BTech CSE at North Cap University. AI/ML specialization planned for year two.</p>
-                </div>
-
-                <div class="milestone milestone-accent milestone-wide reveal">
-                    <div class="milestone-head">
-                        <span class="milestone-num">07</span>
-                        <p class="milestone-year">2027</p>
-                    </div>
-                    <h3>Game Dev</h3>
-                    <p>Mastering C++, adding C#, and leaning into game development alongside AI/ML.</p>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <div class="section-heading reveal">
-                <p class="section-tag">Who I Am</p>
-                <h2>About Me.</h2>
-            </div>
-            <p>Hey, I'm Manan. A developer from India, first year of BTech CSE.</p>
-            <p>Started at 11 with a browser game, moved into Python, and now I'm deep into C++ and building this site.</p>
-            <p>Outside of coding I'm gaming or digging for the next idea to build.</p>
-        </section>
-
-        <section class="contact" id="contact">
-            <div class="contact-card reveal">
-                <p class="section-tag">Contact</p>
-                <h2>Get In Touch.</h2>
-                <p>Got an idea, a question, or just want to talk shop? My inbox is open.</p>
-                <div class="hero-buttons">
-                    <a href="mailto:mananjoshi.dev@gmail.com" class="btn">Email Me</a>
-                    <a href="https://github.com/ManannJoshi" target="_blank" rel="noopener" class="btn secondary">GitHub ↗</a>
                 </div>
             </div>
         </section>
-
-        <footer>
-            <div class="footer-bottom">
-                <p>© <span id="year">2026</span> Manan Joshi. Built with HTML &amp; CSS.</p>
-                <a href="#" class="back-to-top">Back to top ↑</a>
+        <section class="hero" id="journey">
+            <h2 class="dev-text">Journey</h2>
+            <h3>This is my journey of entering Computer Science stream</h3>
+            <div class="journey-card" data-aos="fade-up" data-aos-delay="50">
+                <h2>[Age 12]</h2>
+                <h2>Wrote my first JavaScript with WhitehatJr. That's where the spark started.</h2>  
             </div>
-        </footer>
-
+            <div class="journey-card" data-aos="fade-up" data-aos-delay="100">
+                <h2>[Class 10th]</h2>
+                <h2>Picked up Python in Class 10. It's what opened the real door to coding for me.</h2>
+            </div>
+            <div class="journey-card" data-aos="fade-up" data-aos-delay="150">
+                <h2>[2025]</h2>
+                <h2>Got into databases and learned MySQL and DBMS fundamentals.</h2>
+            </div>
+            <div class="journey-card" data-aos="fade-up" data-aos-delay="200">
+                <h2>[Post-boards]</h2>
+                <h2>Started C++ right after my Class 12 boards.</h2>
+            </div>
+            <div class="journey-card" data-aos="fade-up" data-aos-delay="250">
+                <h2>[1st Year]</h2>
+                <h2>Currently learning C in my first year of college.</h2>
+            </div>
+        </section>
+        <section class="hero" id="about">
+            <h2 class="dev-text">About</h2>
+            <h3>whoami</h3>
+            <div class="card">
+                <h2>Hi, I'm Manan, a developer from India, currently in my 1<sup>st</sup> year of B.Tech
+                    CSE at The NorthCap University.</h2>
+                <h2>Started coding at 12 with Whitehat Jr, picked up Python in class 10, started C++
+                    after boards, and now I'm learning C in college.</h2>
+                <h2>I love tinkering with stuff whether it is installting new linux distros or reverse engineering websites </h2>
+                <h2>When I'm not coding, I usually play games</h2>
+            </div>
+        </section>
+        <section class="hero" id="contact">
+            <h2 class="dev-text">Contact</h2>
+            <h3>Let's build something</h3>
+            <p>Hit me up for cool ideas and I will respond (probably)</p>
+            <div class="card-links">
+                <a href="mailto:mananjoshi.dev@gmail.com" class="links" target="_blank" rel="noopener noreferrer">Email</a>
+                <a href="https://github.com/manannjoshi" class="links" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </section>
     </main>
-
-    <div class="game-modal" id="game-modal" role="dialog" aria-modal="true" aria-label="T-Rex Runner game">
-        <div class="game-modal-backdrop" id="game-modal-backdrop"></div>
-        <div class="game-modal-content">
-            <div class="game-modal-header">
-                <span class="game-modal-title">T-Rex Runner</span>
-                <button class="game-modal-close" id="game-modal-close" aria-label="Close game">✕</button>
-            </div>
-            <iframe class="game-modal-frame" id="game-modal-frame" src="" title="T-Rex Runner game" loading="lazy"></iframe>
-        </div>
-    </div>
-
+    <footer>
+        <p><a href="https://github.com/adryd325/oneko.js/">Oneko Cat</a> by adryd325</p>
+        <p>The Cool Terminal -
+            <a href="https://github.com/i-rocky/x-zsh">x-zsh</a>
+            by
+            <a href="https://github.com/i-rocky">i-rocky</a>
+        </p>
+        <p>© 2026 Manan Joshi - me (cool)</p>
+    </footer>
+    <script src="js/oneko.js" data-cat="./js/oneko.gif"></script>
+    <script src="js/x-zsh.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
-        document.querySelectorAll('a[href^="#"]').forEach(function (link) {
-            link.addEventListener('click', function (e) {
-                const href = this.getAttribute('href');
-                if (href === '#') {
-                    e.preventDefault();
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                    return;
-                }
-                const target = document.querySelector(href);
-                if (target) {
-                    e.preventDefault();
-                    const heading = target.querySelector('.section-heading') || target.querySelector('.contact-card') || target;
-                    const relTop = heading.offsetTop - target.offsetTop;
-                    const sectionTop = target.getBoundingClientRect().top + window.scrollY;
-                    const navHeight = document.querySelector('.navbar').offsetHeight;
-                    window.scrollTo({ top: Math.max(0, sectionTop + relTop - navHeight - 24), behavior: 'smooth' });
-                }
-            });
-        });
-
-        const navLinks = document.querySelectorAll('.nav-links a');
-        const sections = ['projects', 'skills', 'journey', 'about', 'contact'];
-
-        function updateActiveNav() {
-            const pos = window.scrollY + 100;
-            let current = '';
-            for (const id of sections) {
-                const el = document.getElementById(id);
-                if (el && el.offsetTop <= pos) current = id;
-            }
-            navLinks.forEach(function (a) {
-                const href = a.getAttribute('href');
-                const isActive = current ? href === '#' + current : href === '#';
-                a.classList.toggle('active', isActive);
-            });
-        }
-
-        window.addEventListener('scroll', updateActiveNav);
-        updateActiveNav();
-
-        const revealEls = document.querySelectorAll('.reveal');
-        if ('IntersectionObserver' in window) {
-            const observer = new IntersectionObserver(function (entries) {
-                entries.forEach(function (entry) {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.1 });
-            revealEls.forEach(function (el, i) {
-                const parent = el.parentElement;
-                if (parent && parent.classList.contains('project-grid')) {
-                    el.style.transitionDelay = (i % 4) * 0.08 + 's';
-                } else if (parent && parent.classList.contains('skills-grid')) {
-                    el.style.transitionDelay = (i % 3) * 0.08 + 's';
-                } else if (parent && parent.classList.contains('journey-grid')) {
-                    el.style.transitionDelay = (i % 3) * 0.08 + 's';
-                }
-                observer.observe(el);
-            });
-        } else {
-            revealEls.forEach(function (el) { el.classList.add('visible'); });
-        }
-
-        const gameModal = document.getElementById('game-modal');
-        const gameFrame = document.getElementById('game-modal-frame');
-        const gameClose = document.getElementById('game-modal-close');
-        const gameBackdrop = document.getElementById('game-modal-backdrop');
-
-        function closeGame() {
-            gameModal.classList.remove('open');
-            gameFrame.removeAttribute('src');
-            document.body.style.overflow = '';
-            if (document.activeElement && document.activeElement.closest('.game-modal')) {
-                gameClose.blur();
-            }
-        }
-
-        document.querySelectorAll('[data-game]').forEach(function (link) {
-            link.addEventListener('click', function (e) {
-                e.preventDefault();
-                gameFrame.setAttribute('src', link.getAttribute('data-game'));
-                gameModal.classList.add('open');
-                document.body.style.overflow = 'hidden';
-                gameClose.focus();
-            });
-        });
-
-        gameClose.addEventListener('click', closeGame);
-        gameBackdrop.addEventListener('click', closeGame);
-        window.addEventListener('message', function (e) {
-            if (e.data === 'close-game') closeGame();
-        });
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape' && gameModal.classList.contains('open')) closeGame();
-        });
-
-        document.getElementById('year').textContent = new Date().getFullYear();
+        AOS.init();
     </script>
-
 </body>
+
 </html>
