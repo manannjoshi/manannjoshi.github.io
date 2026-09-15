@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 · Page not found</title>
+    <meta name="description" content="404 — the page you're looking for doesn't exist.">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="https://manan.is-a.dev/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+            font-family: 'Source Code Pro', monospace;
+            min-height: 100dvh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .term {
+            width: 100%;
+            max-width: 680px;
+            border: 2px solid #fbbf24;
+            border-radius: 12px;
+            background-color: #0b1220;
+            overflow: hidden;
+        }
+
+        .term-bar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            border-bottom: 2px solid #fbbf24;
+            background-color: #0f172a;
+            color: #94a3b8;
+            font-size: 13px;
+        }
+
+        .term-title {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .term-body {
+            padding: 20px 24px 24px;
+            font-size: 15px;
+            line-height: 1.9;
+            overflow-x: auto;
+        }
+
+        .prompt {
+            color: #fbbf24;
+            white-space: nowrap;
+        }
+
+        .err {
+            color: #f87171;
+            white-space: nowrap;
+        }
+
+        .dim {
+            color: #64748b;
+        }
+
+        .files {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 2px 16px;
+            padding: 0 0 4px 24px;
+        }
+
+        .files a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .files a:hover {
+            color: #fbbf24;
+            text-decoration: underline;
+        }
+
+        .hint a {
+            color: #fbbf24;
+            text-decoration: none;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 9px;
+            height: 18px;
+            background-color: #fbbf24;
+            vertical-align: text-bottom;
+            animation: blink 1s steps(1) infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cursor {
+                animation: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="term" role="alert">
+        <div class="term-bar">
+            <span class="term-title">manan@portfolio: ~</span>
+        </div>
+        <div class="term-body">
+            <p><span class="prompt">manan@portfolio:~$</span> curl -s https://manan.is-a.dev<span id="path">/this-page</span></p>
+            <p class="err">curl: (404) Page not found</p>
+            <p class="dim">the page you requested doesn't exist</p>
+            <p><span class="prompt">manan@portfolio:~$</span> ls ./</p>
+            <ul class="files">
+                <li><a href="https://manan.is-a.dev/#home">home</a></li>
+                <li><a href="https://manan.is-a.dev/#projects">projects</a></li>
+                <li><a href="https://manan.is-a.dev/#skills">skills</a></li>
+                <li><a href="https://manan.is-a.dev/#journey">journey</a></li>
+                <li><a href="https://manan.is-a.dev/#about">about</a></li>
+                <li><a href="https://manan.is-a.dev/#contact">contact</a></li>
+            </ul>
+            <p><span class="prompt">manan@portfolio:~$</span> <span class="cursor"></span></p>
+            <p class="hint">lost? <a href="https://manan.is-a.dev/">cd /</a></p>
+        </div>
+    </main>
+    <script>
+        document.getElementById('path').textContent = location.pathname;
+    </script>
+</body>
+
+</html>

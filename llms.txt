@@ -1,0 +1,12 @@
+# Manan Joshi — Developer Portfolio
+
+> Hand-built, terminal-themed portfolio of Manan Joshi — first-year B.Tech CSE student at The NorthCap University (NCU), India. Self-taught Python, C++, C, JavaScript, HTML and CSS; builds tools for automation and games.
+
+## Core pages
+
+- [Home](https://manan.is-a.dev/): About, projects, skills, journey, contact
+- [Trex Game](https://manan.is-a.dev/trex/): Playable T-Rex runner game built in JavaScript with p5.js
+
+## Optional
+
+- [GitHub profile](https://github.com/manannjoshi): Source code for all projects
